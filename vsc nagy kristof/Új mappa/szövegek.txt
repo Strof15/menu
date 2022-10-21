@@ -1,0 +1,156 @@
+A weboldal sütiket (cookie-kat) használ, hogy biztonságos böngészés mellett a legjobb felhasználói élményt nyújtsa.
+
+rólunk (eredeti: sirály étterem):
+A GudFud menüjének villámgyors kiszolgálásával és kielégítő mennyiségével, ár-érték arányban
+Debrecen egyik legjobb gyorséttermi helyszíne. Minden vendégünk percek alatt megkapja az ebédjét, így az ebédszünetbe, 
+a várakozás helyett belefér egy kényelmesen elfogyasztott kávé vagy üdítő. Este 6-ig kérhető, így vendégeink munka 
+után is tudnak menüzni nálunk, akár elvitelre is tudjuk ajánlani például családoknak.
+
+logó: https://placeit.net/logo-maker
+
+watermarker remove: https://www.watermarkremover.io/
+
+kapcsolatok:
+tel.: +36 20 555 5555
+e-mail: GudFudFoodie@gmail.com
+
+nyitvatartás:
+Hétfő: 8:00 - 20:00
+Kedd: 8:00 - 20:00
+Szerda: 8:00 - 20:00
+Csütörtök: 8:00 - 20:00
+Péntek: 8:00 - 20:00
+Szombat: 10:00 - 18:00
+Vasármap: 10:00 - 18:00
+
+
+menük:
+1)
+leves1:Fehérboros hagymaleves tortilla chipsszel
+
+leves2: Grízgaluskaleves
+
+főétel1: Zöldborsófőzelék fasírttal
+
+főétel2: Lasagne
+
+2)
+leves1: Toszkán bableves
+
+leves2: Vörösboros meggyleves
+
+főétel1: Tejszínes-gombás sertésragu főtt tésztával
+
+főétel2: Cukkinis csirkemell petrezselymes rizzsel
+
+3)
+leves1: Tojásleves
+
+leves2: Lebbencsleves
+
+főétel1: Chilis sajtmorzsás csirkemell burgonyapürével
+
+főétel2: Kolozsvári rakott káposzta
+
+4)
+leves1: Orjaleves
+
+leves2: Mexikói jérceraguleves
+
+főétel1: Pozsonyi kocka vanília öntettel
+
+főétel2: Paradicsomos csirkemellrizottó
+
+5)
+leves1: Gombakrémleves gyöngyökkel
+
+leves2: Hamis gulyásleves
+
+főétel1: Rántott dobverők rizi-bizivel
+
+főétel2: Vadas sertés spagettivel
+
+6)
+leves: Zöldbableves
+
+főétel:  Olaszos csirkemell fűszeres rizzsel
+
+-Desszert
+
+gerekmenük:
+
+leves: napi menüből választható
+
+főétel: Rántott csirkemell, párolt rizzsel
+
+
+gyorsételek:
+
+szendvicsek:
+
+-hamburger
+-sajtburger
+-csirkeburger
+-sertéshúsos hamburger
+-halas hamburger
+-duplahúsos hamburger
+-dupla sajtburger
+-BBQ-s hamburger
+-csípős hamburger
+
+-saját összeállítás
+
+köretek:
+
+-sült burgonya
+-édes burgonya
+-spirálburgonya
+-csirkefalatkák
+-csípős csirkefalatkák
+-halrudacskák
+-sárgarépakorongok
+
+saláták:
+
+-Cézár saláta
+-Ropogós, bundázott csirkés saláta
+-Kertész saláta
+
+öntetek:
+
+-ketchup
+-majonéz
+-Fokhagymás mártogató szósz
+-Chili-paprikás szósz
+-Mézes-mustáros szósz
+-BBQ szósz
+-Buttermilk ranch szósz
+-Curry szósz
+-Joghurtos-kapros öntet
+-Ezersziget öntet
+-Cézár öntet
+-Extra szűz olívaolaj
+
+desszertek:
+
+-fagylalt választható öntettel
+-Sárgabarackos-krémtúros pite kakaós bundában
+-Forró almás pite
+-Vaníliás töltött fánk
+-Tripla belga csokis keksz
+-Vegán csokoládés keksz
+-Red Velvet keksz
+
+italok:
+
+-Coca-Cola
+-Coca-Cola- Zero
+-Sprite
+-Fanta Narancs
+-Lipton Citrom
+-Lipton Barack
+-Cappy narancsdzsúsz
+-Nature Aqua szénsavmentes ásványvíz
+-Nature Aqua szénsavas ásványvíz
+-Red Bull
+-Hell Energy
