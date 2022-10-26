@@ -15,20 +15,26 @@ header {
 #login_button {
   background-color: rgb(255, 51, 0);
   border-radius: 10px;
+  border: none;
+  transition: background-color 0.2s linear;
 }
 
-nav .logo_div {
+#login_button:hover {
+  background-color: rgba(255, 51, 0, 0.8);
+}
+
+.logo_div {
   float: left;
   display: flex;
   align-items: center;
   margin-left: 2em;
 }
 
-nav #logo_kep {
+.logo_kep {
   height: 2.5cm;
 }
 
-nav .linkek {
+.linkek {
   float: right;
   width: 60%;
   height: 100%;
@@ -37,11 +43,11 @@ nav .linkek {
   align-items: center;
 }
 
-nav .linkek li {
+.linkek li {
   list-style: none;
 }
 
-nav .linkek a {
+.linkek a {
   display: block;
   padding: 1em;
   font-size: 16px;
@@ -52,12 +58,12 @@ nav .linkek a {
   transition: background-color 0.2s linear;
 }
 
-nav .linkek a:hover {
+.linkek a:hover {
   background-color: rgb(255, 51, 0);
 }
 
 body {
-  background-color: gray;
+  background-color: white;
 }
 
 footer {
@@ -76,8 +82,8 @@ footer {
   text-align: center;
 }
 
-.footer-content h1{
-  font-size: 30px;
+.footer-content h2{
+  font-size: 20px;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
@@ -104,7 +110,7 @@ footer {
   margin: 0 10px;
 }
 
-.kozossegi a{
+.kozossegi a {
   text-decoration: none;
   color: white;
 }
@@ -136,50 +142,45 @@ footer {
   color: white;
 }
 
-h3 {
-  text-align: center;
+table {
+  color: rgb(255, 51, 0);
+  width: min-content;
+  height: 50%;
 }
 
-td {
-  width: 250px;
-}
-
-td>p {
-  text-align: center;
-}
-
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 500px;
-  width: 600px;
-  float: right;
-}
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 500px;
-  width: 600px;
+table th {
+  font-size: 200%;
 }
 
 .kartyak {
-  color: white;
-  height: 800px;
-  width: 1200px;
-  border-radius: 20px;
+  color: rgb(255, 51, 0);
+  height: 70%;
+  width: 100%;
   margin: auto;
   margin-top:20px;
   margin-bottom: 20px;
-  background-color: rgb(255, 51, 0);
+  display: flex;
 }
 
-table {
+.kartyak h1 {
+  font-size: 300%;
+
+  margin-left: 10%;
+}
+
+body>h1 {
+  font-size: 300%;
+  float: left;
+  margin-left: 15%;
+}
+
+.kartyak_belso {
+  display: flex;
   margin: auto;
-  text-align: center;
-  font-size: 1.5em;
-  color: white;
-  width: 1200px;
-  height: 800px;
-  padding: 30px;
+  justify-content: space-around;
+}
+
+.kartyak_belso table, .kartyak_belso iframe {
+  display: block;
+  padding: 2em;
 }
