@@ -184,3 +184,40 @@ body>h1 {
   display: block;
   padding: 2em;
 }
+
+#Napimenu {
+height: 9cm;
+width: 20cm;
+background-color: black;
+color: white;
+border-radius: 1cm;
+}
+
+table div {
+  background-color: rgb(255, 51, 0);
+  border-radius: 2cm;
+  height: 50px;
+  width: 90px;
+  text-align: center;
+}
+
+table td:first-child{
+
+}
+
+.elsooszlop {
+  height:90px;
+  width: 50px;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
