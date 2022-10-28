@@ -103,7 +103,6 @@ szendvicsek:
 köretek:
 
 -sült burgonya
--édes burgonya
 -spirálburgonya
 -csirkefalatkák
 -csípős csirkefalatkák
@@ -150,7 +149,101 @@ italok:
 -Lipton Citrom
 -Lipton Barack
 -Cappy narancsdzsúsz
--Nature Aqua szénsavmentes ásványvíz
+-Cappy narancsdzsúsz
 -Nature Aqua szénsavas ásványvíz
 -Red Bull
 -Hell Energy
+
+
+
+
+<table id="Napimenu">
+                <tr>
+                    <td>
+                        <div class="elsooszlop">
+                            Leves
+                        </div>
+                    </td>
+                    <td>
+                        <div>gulyéás</div>
+                    </td>
+                    <td>
+                        <div>gulyéás</div>
+                    </td>
+                    <td>
+                        <div>gulyéás</div>
+                    </td>
+                    <td>
+                        <div>gulyéás</div>
+                    </td>
+                    
+                    <td>
+                        <div>valami</div>
+                    </td>
+                    <td>
+                        <div>lorem</div>
+                    </td>
+                    <td>
+                        <div>ipsum</div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div class="elsooszlop">
+                            Főétel
+                        </div>
+                    </td>
+                    <td>
+                        <div>kaja</div>
+                    </td>
+                    <td>
+                        <div>kaja2</div>
+                    </td>
+                    <td>
+                        <div>gulyéás</div>
+                    </td>
+                    <td>
+                        <div>gulyéás</div>
+                    </td>
+                    <td>
+                        <div>kaja3</div>
+                    </td>
+                    <td>
+                        <div>kaja4</div>
+                    </td>
+                    <td>
+                        <div>kaja5</div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div class="elsooszlop">
+                            Desszert
+                        </div>
+                    </td>
+                    <td>
+                        <div>kaja1</div>
+                    </td>
+                    <td>
+                        <div>kaja2</div>
+                    </td>
+                    <td>
+                        <div>kaja3</div>
+                    </td>
+                    <td>
+                        <div>kaja4</div>
+                    </td>
+                    <td>
+                        <div>kaja5</div>
+                    </td>
+                    <td>
+                        <div>kaja6</div>
+                    </td>
+                    <td>
+                        <div>kaja7</div>
+                    </td>
+
+                </tr>
+            </table>

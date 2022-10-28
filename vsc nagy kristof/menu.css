@@ -210,6 +210,12 @@ table td:first-child{
   width: 50px;
 }
 
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
 div.scrollmenu a {
   display: inline-block;
   color: white;
