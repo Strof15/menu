@@ -4,43 +4,14 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  height: 100px;
+/*NAVBAR*/
+nav {
   background-color: black;
-}
-
-#login_button {
-  background-color: rgb(255, 51, 0);
-  border-radius: 10px;
-  border: none;
-  transition: background-color 0.2s linear;
-}
-
-#login_button:hover {
-  background-color: rgba(255, 51, 0, 0.8);
-}
-
-.logo_div {
-  float: left;
-  display: flex;
-  align-items: center;
-  margin-left: 2em;
-}
-
-.logo_kep {
-  height: 2.5cm;
+  color: white;
 }
 
 .linkek {
-  float: right;
-  width: 60%;
-  height: 100%;
-  display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 .linkek li {
@@ -50,6 +21,7 @@ header {
 .linkek a {
   display: block;
   padding: 1em;
+  margin: 0.5em;
   font-size: 16px;
   font-weight: bold;
   color: white;
@@ -60,170 +32,45 @@ header {
 
 .linkek a:hover {
   background-color: rgb(255, 51, 0);
+  color: white;
 }
 
-body {
-  background-color: white;
+/*BODY*/
+.card, .cim {
+  margin-bottom: 1cm;
+}
+
+/*FOOTER*/
+.logo-kep {
+  margin-top: 1cm;
 }
 
 footer {
   background-color: black;
-  height: auto;
-  width: 100%;
-  padding-top: 40px;
   color: white;
 }
 
-.footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.footer-content h2{
-  font-size: 20px;
-  font-weight: 400;
-  text-transform: capitalize;
-  line-height: 3rem;
-}
-
-.footer-content p{
-  max-width: 500px;
-  margin: 5px auto;
-  line-height: 28px;
-  font-size: 14px;
-}
-
-.kozossegi {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0 1rem 0;
-  padding-bottom: 1rem;
-  border-bottom: 5px solid rgb(255, 51, 0);
-}
-
-.kozossegi li {
-  margin: 0 10px;
-}
-
-.kozossegi a {
+footer a, footer h5 {
   text-decoration: none;
   color: white;
-}
-
-.kozossegi a i {
-  font-size: 25px;
   transition: color 0.2s linear;
 }
 
-.kozossegi a:hover i {
+footer h5 {
+  border-bottom: 5px solid rgb(255, 51, 0);
+  margin-top: 1cm;
+}
+
+footer a:hover {
   color: rgb(255, 51, 0);
 }
 
-.footer-bottom {
-  background-color: black;
-  width: 100%;
-  padding: 20px 0;
-  text-align: center;
+.kozossegi {
+  margin: 0.5em;
+  font-size: 24px;
 }
 
-.footer-bottom p {
-  font-size: 10px;
-  word-spacing: 2px;
-  text-transform: capitalize;
-}
-
-.jogi_dolgok {
-  text-decoration: none;
-  color: white;
-}
-
-table {
-  color: rgb(255, 51, 0);
-  width: min-content;
-  height: 50%;
-}
-
-table th {
-  font-size: 200%;
-}
-
-.kartyak {
-  color: rgb(255, 51, 0);
-  height: 70%;
-  width: 100%;
-  margin: auto;
-  margin-top:20px;
-  margin-bottom: 20px;
-  display: flex;
-}
-
-.kartyak h1 {
-  font-size: 300%;
-
-  margin-left: 10%;
-}
-
-body>h1 {
-  font-size: 300%;
-  float: left;
-  margin-left: 15%;
-}
-
-.kartyak_belso {
-  display: flex;
-  margin: auto;
-  justify-content: space-around;
-}
-
-.kartyak_belso table, .kartyak_belso iframe {
-  display: block;
-  padding: 2em;
-}
-
-#Napimenu {
-height: 9cm;
-width: 20cm;
-background-color: black;
-color: white;
-border-radius: 1cm;
-}
-
-table div {
-  background-color: rgb(255, 51, 0);
-  border-radius: 2cm;
-  height: 50px;
-  width: 90px;
-  text-align: center;
-}
-
-table td:first-child{
-
-}
-
-.elsooszlop {
-  height:90px;
-  width: 50px;
-}
-
-div.scrollmenu {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
-}
-
-div.scrollmenu a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
-div.scrollmenu a:hover {
-  background-color: #777;
+.copyright {
+  margin-top: 1cm;
+  font-size: 12px;
 }

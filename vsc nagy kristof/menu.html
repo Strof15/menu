@@ -7,653 +7,417 @@
     <title>GudFud Foodie</title>
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
     <script src="menu.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="logo_div"><a href="menu.html"><img class="logo_kep" src="Új mappa/Logo.png"
-                        alt="GudFud Foodie"></a></div>
-            <ul class="linkek">
-                <li><a href="#Napi menü">Napi menü</a></li>
-                <li><a href="#Ételek">Ételek</a></li>
-                <li><a href="#Italok">Italok</a></li>
-                <li><a href="#Elérhetőségek">Elérhetőségek</a></li>
-                <li>
-                    <button"><a id="login_button" href="belepes.html">Bejelentkezés</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <!--5 div -->
-    <h1>Napi menü</h1>
-    <div class="kartyak">
-        <div class="kartyak_belso">
-            <div class="scrollmenu">
-                <a href="#home">Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-                <a href="#support">Support</a>
-                <a href="#blog">Blog</a>
-                <a href="#tools">Tools</a>  
-                <a href="#base">Base</a>
-                <a href="#custom">Custom</a>
-                <a href="#more">More</a>
-                <a href="#logo">Logo</a>
-                <a href="#friends">Friends</a>
-                <a href="#partners">Partners</a>
-                <a href="#people">People</a>
-                <a href="#work">Work</a>
-              </div>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+        <div class="container-fluid">
+            <a href="menu.html" class="navbar-brand"><img src="Új mappa/Logo.png" alt="GudFudFoodie" width="60"
+                    class="d-inline-block align-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu" aria-expanded="false" aria-lable="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center linkek">
+                    <li>
+                        <a href="#">Napi menü</a>
+                    </li>
+                    <li>
+                        <a href="#">Ételek</a>
+                    </li>
+                    <li>
+                        <a href="#">Italok</a>
+                    </li>
+                    <li>
+                        <a href="#">Elérhetőségek</a>
+                    </li>
+                    <li>
+                        <a href="#">Asztalfoglalás</a>
+                    </li>
+                    <li>
+                        <a href="#">Házhozszállítás</a>
+                    </li>
+                </ul>
             </div>
-    </div>
-    <h1>Ételek</h1>
-    <div class="kartyak">
-        <div class="kartyak_belso">
-            <table>
-                <tr>
-                    <th colspan="6">szendvicsek</th>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        hamburger
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        sajtburger
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        csirkeburger
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        sertéshúsos hamburger
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        halas hamburger
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        duplahúsos hamburger
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        dupla sajtburger
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        BBQ-s hamburger
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        csípős hamburger
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        saját összeállítás
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="4">köretek</th>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        sült burgonya
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        spirálburgonya
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        csirkefalatká
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        csípős csirkefalatká
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        halrudacskák
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        sárgarépa
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="6">saláták</th>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Cézár saláta
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Ropogós, bundázott csirkés saláta
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                        +</td>
-                    <td>
-                        Kertész saláta
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="6">öntetek</th>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        ketchup
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        majonéz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Fokhagmás mártogató szósz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Chili-paprikás szósz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Mézes-mustáros szósz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        BBQ szósz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Buttermilk ranch szósz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Curry szósz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Joghurtos-kapros öntet
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Ezersziget öntet
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Cézár öntet
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Extra szűz olívaolaj
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="6">desszertek</th>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        fagylalt választható öntettel
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Sárgabarackos-krémtúros pite kakaós bundában
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Forró almás pite
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Vaníliás töltött fánk
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Tripla belga csokis keksz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Vegán csokoládés keksz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Red Velvet keksz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-            </table>
         </div>
-    </div>
-    <h1>Italok</h1>
-    <div class="kartyak">
-        <div class="kartyak_belso">
-            <table>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Coca-Cola
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Coca-Cola- Zero
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Sprite
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Fanta Narancs
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Lipton Citrom
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Lipton Barack
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Cappy narancsdzsúsz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Cappy narancsdzsúsz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Nature Aqua szénsavas ásványvíz
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Red Bull
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        kép
-                    </td>
-                    <td>
-                        Hell Energy
-                    </td>
-                    <td>
-                        ár
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <h1>Elérhetőségek</h1>
-    <div class="kartyak">
-        <div class="kartyak_belso">
-            <table>
-                <tr>
-                    <th colspan="2">Nyitvatartás</th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <td>Hétfő</td>
-                    <td>8:00</td>
-                    <td>20:00</td>
-                </tr>
-                <tr>
-                    <td>Kedd</td>
-                    <td>8:00</td>
-                    <td>20:00</td>
-                </tr>
-                <tr>
-                    <td>Szerda</td>
-                    <td>8:00</td>
-                    <td>20:00</td>
-                </tr>
-                <tr>
-                    <td>Csütörtök</td>
-                    <td>8:00</td>
-                    <td>20:00</td>
-                </tr>
-                <tr>
-                    <td>Péntek</td>
-                    <td>8:00</td>
-                    <td>20:00</td>
-                </tr>
-                <tr>
-                    <td>Szombat</td>
-                    <td>10:00</td>
-                    <td>18:00</td>
-                </tr>
-                <tr>
-                    <td>Vasárnap</td>
-                    <td>10:00</td>
-                    <td>18:00</td>
-                </tr>
-            </table>
+    </nav>
 
-            <table>
-                <tr>
-                    <th>Kapcsolatok</th>
-                </tr>
-                <tr>
-                    <td>Telefonszám: +36 20 555 5555</td>
-                </tr>
-                <tr>
-                    <td>E-mail: GudFudFoodie@gmail.com</td>
-                </tr>
-            </table>
+    <!--BODY -->
+    <div class="container">
+        <h1 class="cim">Napi menü</h1>
 
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38635.866861055765!2d79.03758242173791!3d21.03108898965499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4be6f452971c5%3A0x82d5a5e437f25f67!2sSingh%20Saab!5e0!3m2!1shu!2shu!4v1666787903383!5m2!1shu!2shu"
-                width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="container">
+        <h1 class="cim">Ételek</h1>
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="cim">Italok</h1>
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="cim">Elérhetőségek</h1>
+        <div class="row g-3">
+            <div class="col-12 col-lg-6">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Nyitvatartás
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <tr>
+                                <td>Hétfő</td>
+                                <td>8:00</td>
+                                <td>20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Kedd</td>
+                                <td>8:00</td>
+                                <td>20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Szerda</td>
+                                <td>8:00</td>
+                                <td>20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Csütörtök</td>
+                                <td>8:00</td>
+                                <td>20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Péntek</td>
+                                <td>8:00</td>
+                                <td>20:00</td>
+                            </tr>
+                            <tr>
+                                <td>Szombat</td>
+                                <td>10:00</td>
+                                <td>18:00</td>
+                            </tr>
+                            <tr>
+                                <td>Vasárnap</td>
+                                <td>10:00</td>
+                                <td>18:00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Kapcsolatok
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <tr>
+                                <td>Telefonszám: <a href="tel:+36 20 555 5555">+36 20 555 5555</a></td>
+                            </tr>
+                            <tr>
+                                <td>E-mail: <a href="mailto:GudFudFoodie@gmail.com">GudFudFoodie@gmail.com</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-3">
+            <div class="col-12">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Hol találsz meg minket
+                    </div>
+                    <div class="card-body">
+                        <iframe class=""
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38635.866861055765!2d79.03758242173791!3d21.03108898965499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4be6f452971c5%3A0x82d5a5e437f25f67!2sSingh%20Saab!5e0!3m2!1shu!2shu!4v1666787903383!5m2!1shu!2shu"
+                            width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="cim">Asztalfoglalás</h1>
+    </div>
+    <div class="container">
+        <h1 class="cim">Házhozszállítás</h1>
     </div>
 </body>
 
+<!--FOOTER-->
 <footer>
-    <div class="footer-content">
-        <img src="Új mappa/Logo.png" alt="GudFudFoodie" class="logo_kep">
-        <h2>Kövess minket közösségi oldalainkon is!</h2>
-        <ul class="kozossegi">
-            <li><a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a></li>
-            <li><a href="https://twitter.com/"><i class="bi bi-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a></li>
-            <li><a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a></li>
-        </ul>
-        <p><a class="jogi_dolgok" href="#">Jogi nyilatkozatok</a></p>
-        <p><a class="jogi_dolgok" href="#">Impresszum</a></p>
-    </div>
-    <div class="footer-bottom">
-        <p>©GudFud Foodie</p>
+    <div class="container text-center text-md-left">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <img src="Új mappa/Logo.png" alt="GudFudFoodie" width="60" class="logo-kep">
+            </div>
+        </div>
+        <div class="row text-center text-md-left">
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="text-uppercase mb-4 font-weight-bold">GF INFO</h5>
+                <p><a href="#">Történetünk</a></p>
+                <p><a href="#">Házirend</a></p>
+                <p><a href="#">Jogi nyilatkozat</a></p>
+                <p><a href="#">Impresszum</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="text-uppercase mb-4 font-weight-bold">FONTOS VAGY NEKÜNK!</h5>
+                <p><a href="#">Allergének</a></p>
+                <p><a href="#">Karrier</a></p>
+                <p><a href="#">Adatvédelem</a></p>
+                <p><a href="#">Cookie beállítások</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="text-uppercase mb-4 font-weight-bold">KÖVESS KÖZÖSSÉGI OLDALAINKON!</h5>
+                <p>
+                    <a href="https://www.facebook.com/"><i class="bi bi-facebook kozossegi"></i></a>
+                    <a href="https://www.instagram.com/"><i class="bi bi-instagram kozossegi"></i></a>
+                    <a href="https://twitter.com/"><i class="bi bi-twitter kozossegi"></i></a>
+                    <a href="https://www.youtube.com/"><i class="bi bi-youtube kozossegi"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="bi bi-linkedin kozossegi"></i></a>
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            ©GudFudFoodie
+        </div>
     </div>
 </footer>
 
