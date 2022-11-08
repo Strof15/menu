@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*NAVBAR*/
+nav {
+  background-color: black;
+  color: white;
+}
+
+.linkek {
+  justify-content: space-around;
+}
+
+.linkek li {
+  list-style: none;
+}
+
+.linkek a {
+  display: block;
+  padding: 1em;
+  margin: 0.5em;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.2s linear;
+}
+
+.linkek a:hover {
+  background-color: rgb(255, 51, 0);
+  color: white;
+}
+
+/*BODY*/
+.card, .cim {
+  margin-bottom: 1cm;
+}
+
+/*FOOTER*/
+.logo-kep {
+  margin-top: 1cm;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer a, footer h5 {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s linear;
+}
+
+footer h5 {
+  border-bottom: 5px solid rgb(255, 51, 0);
+  margin-top: 1cm;
+}
+
+footer a:hover {
+  color: rgb(255, 51, 0);
+}
+
+.kozossegi {
+  margin: 0.5em;
+  font-size: 24px;
+}
+
+.copyright {
+  margin-top: 1cm;
+  font-size: 12px;
+}
