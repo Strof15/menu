@@ -36,8 +36,63 @@ nav {
 }
 
 /*BODY*/
-.card, .cim {
+.carousel-item {
+  width: 100vh;
+  height: 100vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: no-repeat scroll center scroll;
+}
+
+div[class="container"] {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.card {
+  color: black;
+}
+
+.cim {
   margin-bottom: 1cm;
+  margin-top: 1cm;
+}
+
+.napi-menu button {
+  color: white;
+  transition: background-color 0.2s linear;
+}
+
+.napi-menu button:hover {
+  background-color: rgb(255, 51, 0);
+  color: white;
+}
+
+.wrapper {
+  height: 10cm;
+  border-radius: 10px;
+  display: flex;
+  overflow-x: auto;
+  background-color: black;
+}
+
+.wrapper .item {
+  height: 115px;
+  line-height: 110px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 0.5cm;
+  margin-right: 0.5cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+.wrapper .item img {
+  width: 10cm;
+  border-radius: 10px;
 }
 
 /*FOOTER*/
@@ -46,6 +101,7 @@ nav {
 }
 
 footer {
+  margin-top: 1cm;
   background-color: black;
   color: white;
 }
@@ -57,8 +113,11 @@ footer a, footer h5 {
 }
 
 footer h5 {
+  padding: 0.2cm;
   border-bottom: 5px solid rgb(255, 51, 0);
   margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
 }
 
 footer a:hover {

@@ -247,3 +247,44 @@ italok:
 
                 </tr>
             </table>
+
+
+
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ide írd az étel nevét</h5>
+                        <p class="card-text">Ide írd az árát</p>
+                    </div>
+                </div>
+            </div>
+        </div>
