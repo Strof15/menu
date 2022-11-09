@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*NAVBAR*/
+nav {
+  background-color: black;
+  color: white;
+}
+
+.linkek {
+  justify-content: space-around;
+}
+
+.linkek li {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.linkek a {
+  display: block;
+  padding: 1em;
+  margin: 0.5em;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.2s linear;
+}
+
+.linkek a:hover {
+  background-color: rgb(255, 51, 0);
+  color: white;
+}
+
+/*BODY*/
+.carousel-item {
+  width: 100vh;
+  height: 100vh;
+  position: relative;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: no-repeat scroll center scroll;
+}
+
+.banner-text {
+  position: absolute;
+  top: 25%;
+  color: white;
+  padding: 20px;
+  font-size: 1cm;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+div[class="container"] {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 1cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+img[src="kajaképek/italok/"] {
+  width: 1cm;
+}
+
+.card {
+  color: black;
+  margin: 10px;
+}
+
+.cim {
+  margin-bottom: 1cm;
+  margin-top: 1cm;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.napi-menu button {
+  color: white;
+  transition: background-color 0.2s linear;
+}
+
+.napi-menu button:hover {
+  background-color: rgb(255, 51, 0);
+  color: white;
+}
+
+.wrapper {
+  height: 10cm;
+  border-radius: 10px;
+  display: flex;
+  overflow-x: auto;
+  background-color: black;
+}
+
+.wrapper .item {
+  height: 115px;
+  line-height: 110px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 0.5cm;
+  margin-right: 0.5cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+.wrapper .item img {
+  width: 10cm;
+  border-radius: 10px;
+}
+
+.wrapper-italok {
+  height: 10cm;
+  border-radius: 10px;
+  display: flex;
+  overflow-x: auto;
+  background-color: black;
+}
+
+.wrapper-italok .item {
+  height: 115px;
+  line-height: 110px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 0.5cm;
+  margin-right: 0.5cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+.wrapper-italok .item img {
+  width: 5cm;
+  border-radius: 10px;
+}
+
+/*FOOTER*/
+.logo-kep {
+  margin-top: 1cm;
+}
+
+footer {
+  margin-top: 1cm;
+  background-color: black;
+  color: white;
+}
+
+footer a, footer h5 {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s linear;
+}
+
+footer h5 {
+  padding: 0.2cm;
+  border-bottom: 5px solid rgb(255, 51, 0);
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;
+}
+
+footer a:hover {
+  color: rgb(255, 51, 0);
+}
+
+.kozossegi {
+  margin: 0.5em;
+  font-size: 24px;
+}
+
+.copyright {
+  margin-top: 1cm;
+  font-size: 12px;
+}
