@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GudFud Foodie</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="menu.js"></script>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark" id="navbar-example2">
+        <div class="container-fluid">
+            <a href="menu.html" class="navbar-brand"><img src="Új mappa/Logo.png" alt="GudFudFoodie" width="60"
+                    class="d-inline-block align-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu" aria-expanded="false" aria-lable="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav nav nav-pills ms-auto text-center linkek">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">Napi menü</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Ételek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading3">Italok</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading4">Elérhetőségek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading5">Asztalfoglalás</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading6">Házhozszállítás</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" tabindex="0">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!--A kép forrása: https://pixabay.com/photos/urban-montreal-downtown-streetscape-2004494/-->
+                    <img src="Új mappa/etterem-1.jpg" class="d-block w-100" alt="Éttermi fotó">
+                </div>
+                <!--A kép forrása: https://pixabay.com/photos/brick-wall-chairs-furniture-1834784/-->
+                <div class="carousel-item">
+                    <img src="Új mappa/etterem-2.jpg" class="d-block w-100" alt="Éttermi fotó">
+                </div>
+                <!--A kép forrása: https://pixabay.com/illustrations/bar-restaurant-bavaria-beer-club-826688/-->
+                <div class="carousel-item">
+                    <img src="Új mappa/etterem-3.jpg" class="d-block w-100" alt="Éttermi fotó">
+                </div>
+                <div class="container-fluid banner-text text-center">
+                    <p>Megéheztél?</p>
+                    <p>Gyere be hozzánk!</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--NAPI MENÜ-->
+        <div id="scrollspyHeading1" class="container">
+            <h1 class="cim">Napi menü</h1>
+            <ul class="nav nav-pills nav-justified mb-3 napi-menu" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-burgerek-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-burgerek" type="button" role="tab" aria-controls="pills-burgerek"
+                        aria-selected="true">Burgerek</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-köretek-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-köretek" type="button" role="tab" aria-controls="pills-köretek"
+                        aria-selected="false">Köretek</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-saláták-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-saláták" type="button" role="tab" aria-controls="pills-saláták"
+                        aria-selected="false">Saláták</button>
+                </li>
+                <button class="nav-link" id="pills-öntetek-tab" data-bs-toggle="pill" data-bs-target="#pills-öntetek"
+                    type="button" role="tab" aria-controls="pills-öntetek" aria-selected="true">Öntetek</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-desszertek-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-desszertek" type="button" role="tab" aria-controls="pills-desszertek"
+                        aria-selected="false">Desszertek</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-italok-tab" data-bs-toggle="pill" data-bs-target="#pills-italok"
+                        type="button" role="tab" aria-controls="pills-italok" aria-selected="false">Italok</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-burgerek" role="tabpanel"
+                    aria-labelledby="pills-burgerek-tab" tabindex="0">
+                    <div class="wrapper">
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-köretek" role="tabpanel" aria-labelledby="pills-köretek-tab"
+                    tabindex="0">
+                    <div class="wrapper">
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-saláták" role="tabpanel" aria-labelledby="pills-saláták-tab"
+                    tabindex="0">
+                    <div class="wrapper">
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-öntetek" role="tabpanel" aria-labelledby="pills-öntetek-tab"
+                    tabindex="0">
+                    <div class="wrapper">
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-desszertek" role="tabpanel" aria-labelledby="pills-desszertek-tab"
+                    tabindex="0">
+                    <div class="wrapper">
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-italok" role="tabpanel" aria-labelledby="pills-italok-tab"
+                    tabindex="0">
+                    <div class="wrapper">
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                        <div class="item">
+                            <img src="kajaképek/burgerek/BBQ.png" alt="Napi menü">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ÉTELEK-->
+        <div id="scrollspyHeading2" class="container">
+            <h1 class="cim">Ételek</h1>
+            <h3>Burgerek</h3>
+            <br>
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/burgerek/hamburger.png" alt="Hamburger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamburger</h5>
+                            <p class="card-text">320 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/burgerek/sajtburger.png" alt="Sajtburger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Sajtburger</h5>
+                            <p class="card-text">350 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/burgerek/csirkeburger.png" alt="Csirkeburger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Csirkeburger</h5>
+                            <p class="card-text">890 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/burgerek/sertésburger.png" alt="Sertéshúsos hamburger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Sertéshúsos hamburger</h5>
+                            <p class="card-text">890 Ft</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/burgerek/halas hambi.png" alt="Halas hamburger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Halas hamburger</h5>
+                            <p class="card-text">840 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/burgerek/duplahusos.png" alt="Duplahúsos hamburger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Duplahúsos hamburger</h5>
+                            <p class="card-text">900 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/burgerek/duplasajtos.png" alt="Dupla sajtburger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Dupla sajtburger</h5>
+                            <p class="card-text">950 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/burgerek/BBQ.png" alt="BBQ-s hamburger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">BBQ-s hamburger</h5>
+                            <p class="card-text">1500 Ft</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/burgerek/csípős.png" alt="Csípős hamburger" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Csípős hamburger</h5>
+                            <p class="card-text">350 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/burgerek/mystery_burger_4x.png" alt="Saját összeállítás" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Saját összeállítás</h5>
+                            <p class="card-text">1800 Ft</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Köretek</h3>
+            <br>
+            <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/köretek/csirkefalatkák.png" alt="Csirkefalatkák" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Csirkefalatkák (9 db)</h5>
+                                <p class="card-text">1010 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/köretek/csipöscsirkefalatkák.png" alt="Csípős Csirkefalatkák"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Csípős Csirkefalatkák (9 db)</h5>
+                                <p class="card-text">1080 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/köretek/halrudacskák.png" alt="Halrudacskák" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Halrudacskák (3 db)</h5>
+                                <p class="card-text">570 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/köretek/spirálburgona.png" alt="Spirálburgonya" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Spirálburgonya</h5>
+                                <p class="card-text">700 Ft</p>
+                            </div>
+                        </div>
+                    </div>  
+            </div>
+            <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/köretek/krumpli.png" alt="Sült burgonya" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Sült burgonya</h5>
+                                <p class="card-text">660 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/köretek/sargarepa.png" alt="Sárgarépakorongok" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Sárgarépakorongok</h5>
+                                <p class="card-text">310 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <h3>Saláták</h3>
+            <br>
+            <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/saláták/cézársaláta.png" alt="Cézár saláta" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Cézár saláta</h5>
+                                <p class="card-text">1350 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/saláták/ropogóscuccossaláta.png" alt="Ropogós, Bundázott Csirkés saláta"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Ropogós, Bundázott Csirkés saláta</h5>
+                                <p class="card-text">1350 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/saláták/kertészsaláta.png" alt="Kertész saláta" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Kertész saláta</h5>
+                                <p class="card-text">310 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <h3>Öntetek</h3>
+            <br>
+            <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/ketchup.png" alt="Ketchup" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Ketchup</h5>
+                                <p class="card-text">Ide írd az árát</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/majonéz.png" alt="Majonéz" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Majonéz</h5>
+                                <p class="card-text">120 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/fokhagymáscucc.png" alt="Fokhagymás Mártogató szósz"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Fokhagymás Mártogató szósz</h5>
+                                <p class="card-text">120 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/chilipaprihás.png" alt="Chili-Paprikás szósz" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Chili-Paprikás szósz</h5>
+                                <p class="card-text">120 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/mézesmustáros.png" alt="Mézes-Mustáros szósz" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Mézes-Mustáros szósz</h5>
+                                <p class="card-text">120 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/BBQ-mártás.png" alt="BBQ szósz" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">BBQ szósz</h5>
+                                <p class="card-text">120 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/buttermilk.png" alt="Buttermilk Ranch szósz" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Buttermilk Ranch szósz</h5>
+                                <p class="card-text">120 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/curry.png" alt="Curry szósz" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Curry szósz</h5>
+                                <p class="card-text">120 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/joghurtos-kapros öntet.png" alt="Joghurtos-Kapros öntet"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Joghurtos-Kapros öntet</h5>
+                                <p class="card-text">140 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/ezersziget öntet.png" alt="Ezersziget öntet" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Ezersziget öntet</h5>
+                                <p class="card-text">140 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/cézár öntet.png" alt="Cézár öntet" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Cézár öntet</h5>
+                                <p class="card-text">140 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/öntetek/oliva.png" alt="Extra szűz olívaolaj" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Extra szűz olívaolaj</h5>
+                                <p class="card-text">140 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <h3>Desszertek</h3>
+            <br>
+            <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/desszertek/fagyi1.png" alt="Fagylalt választható öntettel" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Fagylalt választható öntettel</h5>
+                                <p class="card-text">690 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/desszertek/barackospite.png" alt="Sárgabarackos-krémtúros pite kakaós bundában"
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Sárgabarackos-krémtúros pite kakaós bundában</h5>
+                                <p class="card-text">300 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/desszertek/almáspite.png" alt="Forró almás pite" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Forró almás pite</h5>
+                                <p class="card-text">300 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/desszertek/fánk.png" alt="Vaníliás töltött fánk" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Vaníliás töltött fánk</h5>
+                                <p class="card-text">380 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/desszertek/csokiskeksz.png" alt="Tripla belga csokis keksz" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Tripla belga csokis keksz</h5>
+                                <p class="card-text">340 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/desszertek/vegáncsokiskeksz.png" alt="Vegán csokoládés keksz" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Vegán csokoládés keksz</h5>
+                                <p class="card-text">340 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="kajaképek/desszertek/pirosszarkeksz.png" alt="Red Velvet keksz" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Red Velvet keksz</h5>
+                                <p class="card-text">340 Ft</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!--ITALOK-->
+        <div id="scrollspyHeading3" class="container">
+            <h1 class="cim">Italok</h1>
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/italok/cola.png" alt="Coca-Cola" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Coca-Cola</h5>
+                            <p class="card-text">500 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/italok/colazero.png" alt="Coca-Cola Zero" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Coca-Cola Zero</h5>
+                            <p class="card-text">500 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/italok/sprite.png" alt="Sprite" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Sprite</h5>
+                            <p class="card-text">500 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/italok/fanta.png" alt="Fanta Narancs" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Fanta Narancs</h5>
+                            <p class="card-text">500 Ft</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/italok/liptoncitrom.png" alt="Lipton Citrom" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Lipton Citrom</h5>
+                            <p class="card-text">500 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/italok/liptonzöld.png" alt="Lipton Zöldtea" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Lipton Zöldtea</h5>
+                            <p class="card-text">500 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/italok/cappy.png" alt="Cappy Narancsdzsúsz" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappy Narancsdzsúsz</h5>
+                            <p class="card-text">500 Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/italok/víz.png" alt="Nature Aqua szénsavas ásványvíz" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nature Aqua szénsavas ásványvíz</h5>
+                            <p class="card-text">300 Ft</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="kajaképek/italok/redbull.png" alt="Red Bull" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Bull</h5>
+                            <p class="card-text">280 Ft</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ELÉRHETŐSÉGEK-->
+        <div id="scrollspyHeading4" class="container">
+            <h1 class="cim">Elérhetőségek</h1>
+            <div class="row g-3">
+                <div class="col-12 col-lg-6">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            Nyitvatartás
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-striped">
+                                <tr>
+                                    <td>Hétfő</td>
+                                    <td>8:00</td>
+                                    <td>20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Kedd</td>
+                                    <td>8:00</td>
+                                    <td>20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Szerda</td>
+                                    <td>8:00</td>
+                                    <td>20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Csütörtök</td>
+                                    <td>8:00</td>
+                                    <td>20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Péntek</td>
+                                    <td>8:00</td>
+                                    <td>20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Szombat</td>
+                                    <td>10:00</td>
+                                    <td>18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Vasárnap</td>
+                                    <td>10:00</td>
+                                    <td>18:00</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            Kapcsolatok
+                        </div>
+                        <div class="card-body">
+                            <table class="table table-striped">
+                                <tr>
+                                    <td>Telefonszám: <a href="tel:+36 20 555 5555">+36 20 555 5555</a></td>
+                                </tr>
+                                <tr>
+                                    <td>E-mail: <a href="mailto:GudFudFoodie@gmail.com">GudFudFoodie@gmail.com</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-12">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            Hol találsz meg minket
+                        </div>
+                        <div class="card-body">
+                            <iframe class=""
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38635.866861055765!2d79.03758242173791!3d21.03108898965499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4be6f452971c5%3A0x82d5a5e437f25f67!2sSingh%20Saab!5e0!3m2!1shu!2shu!4v1666787903383!5m2!1shu!2shu"
+                                width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ASZTALFOGLALÁS-->
+        <div id="scrollspyHeading5" class="container">
+            <h1 class="cim">Asztalfoglalás</h1>
+            <form class="row g-3" id="asztalfoglalas">
+                <div class="col-md-6">
+                    <label for="vendegekSzama" class="form-label">Vendégek száma</label>
+                    <input type="number" class="form-control" id="vendegekSzama" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">Email cím</label>
+                    <input type="email" class="form-control" id="inputEmail" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputDate" class="form-label">Dátum</label>
+                    <input type="date" class="form-control" id="inputDate" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputTime" class="form-label">Időtartam</label>
+                    <input type="time" class="form-control" id="inputTime" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputTime2" class="form-label">Időpont</label>
+                    <input type="time" class="form-control" id="inputTime2" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="fizetesModja">Válassz fizetési módot:</label>
+                    <select id="fizetesModja" name="fizetesModja" form="asztalfoglalas">
+                        <option value="bankkartya">Bankkártya</option>
+                        <option value="atutalas">Átutalás</option>
+                        <option value="helyben">Helyben</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                        <label class="form-check-label" for="gridCheck">
+                            Elfogadom az adatvédelmi szabályzatot
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Foglalás</button>
+                </div>
+            </form>
+        </div>
+        <!--HÁZHOZSZÁLLÍTÁS-->
+        <div id="scrollspyHeading6" class="container">
+            <h1 class="cim">Házhozszállítás</h1>
+            <form class="row g-3" id="hazhozszallitas">
+                <div class="col-md-12">
+                    <label for="iranyitoSzam" class="form-label">Irányítószám</label>
+                    <input type="number" class="form-control" id="iranyitoSzam" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="telepules" class="form-label">Település</label>
+                    <input type="text" class="form-control" id="telepules" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="utca" class="form-label">Utca</label>
+                    <input type="text" class="form-control" id="utca" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="hazszam" class="form-label">Házszám</label>
+                    <input type="number" class="form-control" id="hazszam" required>
+                </div>
+                <div class="col-md-12">
+                    <label for="nev" class="form-label">Név</label>
+                    <input type="text" class="form-control" id="nev" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="fizetesModja">Válassz fizetési módot:</label>
+                    <select id="fizetesModja" name="fizetesModja" form="hazhozszallitas">
+                        <option value="bankkartya">Bankkártya</option>
+                        <option value="atutalas">Átutalás</option>
+                        <option value="utanvet">Utánvét</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                        <label class="form-check-label" for="gridCheck">
+                            Elfogadom az adatvédelmi szabályzatot
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Rendelés</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+<!--FOOTER-->
+<footer>
+    <div class="container-fluid text-center">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <img src="Új mappa/Logo.png" alt="GudFudFoodie" width="60" class="logo-kep">
+            </div>
+        </div>
+        <div class="row text-center text-md-left">
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="text-uppercase mb-4 font-weight-bold">GF INFO</h5>
+                <p><a href="#">Történetünk</a></p>
+                <p><a href="#">Házirend</a></p>
+                <p><a href="#">Jogi nyilatkozat</a></p>
+                <p><a href="#">Impresszum</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="text-uppercase mb-4 font-weight-bold">FONTOS VAGY NEKÜNK!</h5>
+                <p><a href="#">Allergének</a></p>
+                <p><a href="#">Karrier</a></p>
+                <p><a href="#">Adatvédelem</a></p>
+                <p><a href="#">Cookie beállítások</a></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <h5 class="text-uppercase mb-4 font-weight-bold">KÖVESS KÖZÖSSÉGI OLDALAINKON!</h5>
+                <p>
+                    <a href="https://www.facebook.com/"><i class="bi bi-facebook kozossegi"></i></a>
+                    <a href="https://www.instagram.com/"><i class="bi bi-instagram kozossegi"></i></a>
+                    <a href="https://www.tiktok.com/"><i class="bi bi-tiktok kozossegi"></i></a>
+                    <a href="https://twitter.com/"><i class="bi bi-twitter kozossegi"></i></a>
+                    <a href="https://www.youtube.com/"><i class="bi bi-youtube kozossegi"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="bi bi-linkedin kozossegi"></i></a>
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            ©GudFudFoodie
+        </div>
+    </div>
+</footer>
+
+</html>

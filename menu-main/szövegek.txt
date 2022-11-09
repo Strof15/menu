@@ -1,0 +1,26 @@
+A weboldal sütiket (cookie-kat) használ, hogy biztonságos böngészés mellett a legjobb felhasználói élményt nyújtsa.
+
+rólunk (eredeti: sirály étterem):
+A GudFud menüjének villámgyors kiszolgálásával és kielégítő mennyiségével, ár-érték arányban
+Debrecen egyik legjobb gyorséttermi helyszíne. Minden vendégünk percek alatt megkapja az ebédjét, így az ebédszünetbe, 
+a várakozás helyett belefér egy kényelmesen elfogyasztott kávé vagy üdítő. Este 6-ig kérhető, így vendégeink munka 
+után is tudnak menüzni nálunk, akár elvitelre is tudjuk ajánlani például családoknak.
+
+logó: https://placeit.net/logo-maker
+
+watermarker remove: https://www.watermarkremover.io/
+
+kapcsolatok:
+tel.: +36 20 555 5555
+e-mail: GudFudFoodie@gmail.com
+
+nyitvatartás:
+Hétfő: 8:00 - 20:00
+Kedd: 8:00 - 20:00
+Szerda: 8:00 - 20:00
+Csütörtök: 8:00 - 20:00
+Péntek: 8:00 - 20:00
+Szombat: 10:00 - 18:00
+Vasármap: 10:00 - 18:00
+
+
