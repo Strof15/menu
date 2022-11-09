@@ -16,6 +16,8 @@ nav {
 
 .linkek li {
   list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .linkek a {
@@ -39,6 +41,7 @@ nav {
 .carousel-item {
   width: 100vh;
   height: 100vh;
+  position: relative;
   object-fit: cover;
   top: 0;
   left: 0;
@@ -46,10 +49,23 @@ nav {
   background: no-repeat scroll center scroll;
 }
 
+.banner-text {
+  position: absolute;
+  top: 25%;
+  color: white;
+  padding: 20px;
+  font-size: 1cm;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 div[class="container"] {
   background-color: black;
   color: white;
   border-radius: 10px;
+  padding: 1cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
 }
 
 .card {
@@ -59,6 +75,8 @@ div[class="container"] {
 .cim {
   margin-bottom: 1cm;
   margin-top: 1cm;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .napi-menu button {
