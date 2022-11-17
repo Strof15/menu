@@ -38,6 +38,10 @@ nav {
 }
 
 /*BODY*/
+.btn-primary {
+  background-color: aqua;
+}
+
 .carousel-item {
   width: 100vh;
   height: 100vh;
@@ -87,6 +91,7 @@ img[src="kajaképek/italok/"] {
 .napi-menu button {
   color: white;
   transition: background-color 0.2s linear;
+  margin: 10px;
 }
 
 .napi-menu button:hover {
@@ -95,7 +100,7 @@ img[src="kajaképek/italok/"] {
 }
 
 .wrapper {
-  height: 10cm;
+  height: 11cm;
   border-radius: 10px;
   display: flex;
   overflow-x: auto;
@@ -116,6 +121,10 @@ img[src="kajaképek/italok/"] {
 .wrapper .item img {
   width: 10cm;
   border-radius: 10px;
+}
+
+.wrapper .item img:focus, .wrapper-italok .item img:focus {
+  border: 10px solid rgb(255, 51, 0);
 }
 
 .wrapper-italok {
@@ -140,6 +149,14 @@ img[src="kajaképek/italok/"] {
 .wrapper-italok .item img {
   width: 5cm;
   border-radius: 10px;
+}
+
+.terkep {
+  border-radius: 10px;
+}
+
+.modal {
+  color: black;
 }
 
 /*FOOTER*/
