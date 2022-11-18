@@ -12,7 +12,7 @@ function foglalasGombClick() {
     var checkBox = document.getElementById("FoglalasCheckbox");
     if (document.getElementById("FoglalasVendegekSzama").value != "" && document.getElementById("FoglalasNev").value != "" && document.getElementById("FoglalasEmail").value != "" && document.getElementById("FoglalasDatum").required != "" && document.getElementById("FoglalasIdotartam").value != "" && document.getElementById("FoglalasIdopont").value != "" && document.getElementById("FoglalasFizetesModja").value != "" && checkBox.checked == true)
     {
-        alert("Foglalás sikeres! Küldtünk egy visszaigazoló emailt a " + document.getElementById("RendelesEmail").value + " címre. Hamarosan találkozunk!");
+        alert("Foglalás sikeres! Küldtünk egy visszaigazoló emailt a " + document.getElementById("FoglalasEmail").value + " címre. Hamarosan találkozunk!");
     }
 }
 
